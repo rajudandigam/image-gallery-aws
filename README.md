@@ -66,9 +66,6 @@ NEXT_PUBLIC_API_URL=https://px893gsmql.execute-api.us-east-1.amazonaws.com/image
 - Add caching mechanism for faster image loading
 - Use AWS CloudFront for global content delivery
 
-## Author
-**Pravesh Sudha** - [praveshsudha.com](https://praveshsudha.com)
-
 ## License
 This project is licensed under the MIT License.
 

@@ -9,8 +9,8 @@ import datetime
 s3 = boto3.client('s3')
 dynamodb = boto3.client('dynamodb')
 
-UPLOAD_BUCKET = 'pravesh-image-uploads-bucket'
-THUMBNAIL_BUCKET = 'pravesh-thumbnails-bucket'
+UPLOAD_BUCKET = 'sample-image-uploads-bucket'
+THUMBNAIL_BUCKET = 'sample-thumbnails-bucket'
 DDB_TABLE = 'image_metadata'
 
 def lambda_handler(event, context):
